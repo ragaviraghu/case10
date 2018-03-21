@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-int N,a[10],i;
+int N,a[N],i;
 cout<<"Enter the N value :"<<endl;
 cin>>N;
 for(i=1;i<=N;i++)
@@ -10,7 +10,7 @@ for(i=1;i<=N;i++)
 cin>>a[i];
 if(a[i]!=i)
 {
-cout<<"The changed number is : "<<i<<endl;
+cout<<"The changed number is : "<<a[i]<<endl;
 break;
 }
 }
